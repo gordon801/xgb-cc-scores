@@ -1,5 +1,5 @@
 # XGBoost Modelling - Credit Card Scores
-In this project, I used provided LendingClub data and an XGBoost model to produce XGB prediction scores for each observation in the LendingClub dataset.
+In this project, I used provided LendingClub data and the output from an XGBoost model to produce XGB prediction scores for each observation in the LendingClub dataset.
 
 ## Inputs
 * creditcard_3001.csv: LendingClub credit card data with 3001 observations. 
