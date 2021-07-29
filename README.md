@@ -3,7 +3,10 @@ In this project, I used provided LendingClub data and the output from an XGBoost
 
 ## Inputs
 * creditcard_3001.csv: LendingClub credit card data with 3001 observations. 
+![image](https://user-images.githubusercontent.com/62014067/127531644-d90f252a-5ba5-4825-bbdf-37da382c146f.png)
+
 * xgb_tree_1000.txt: Text file dump from an XGBoost model containing 1000 ensemble trees.
+![image](https://user-images.githubusercontent.com/62014067/127531730-fe5ca4e2-a692-46ce-91fe-4527a6fdcc82.png)
 
 ## Program
 * xgboost_process.py
@@ -12,3 +15,5 @@ This program parses the input files, creates binary trees from the xgb_tree data
 
 ## Output
 * test_result.csv: List of 3001 prediction scores corresponding to each LendingClub observation.
+
+![image](https://user-images.githubusercontent.com/62014067/127531985-eb0ec91b-3c46-4305-b49c-094a12f8e0dd.png)
